@@ -54,8 +54,15 @@ _Se detallan los requerimientos encontrados en el problema_
 
 
 
-
-| Primer encabezado | Segundo encabezado |
+### Especificacion de casos de uso
+| Nombre: | Notificar tiempo de llegada al parqueadero |
 | ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
-| Contenido de la celda  | Contenido de la celda  |
+| Actores:  | Conductor |
+| Descripción: | El conductor podrá visualizar el tiempo que le tomará llegar a los parqueaderos. |
+| Precondiciones: | El conductor debe activar la ubicación en su celular. |
+| Poscondiciones: | El sistema muestra el tiempo calculado de la llegada al parqueadero. |
+| Flujo básico:  |
+|  1. El sistema mostrará un mapa en donde se muestre la posición del conductor y el parqueadero al que desea ir.
+   2. El sistema calculará la distancia entre el conductor y el parqueadero.
+   3. El sistema le mostrará al conductor en forma de mensaje el tiempo en minutos que tardará en llegar a ese parqueadero.
+ |
