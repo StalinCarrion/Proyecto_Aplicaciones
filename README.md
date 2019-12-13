@@ -56,6 +56,7 @@ _Se detallan los requerimientos encontrados en el problema_
 ### Especificacion de casos de uso
 | Nombre: | Notificar tiempo de llegada al parqueadero |
 
+|CASO: | 1 |
 |-----------|-----------|
 | Actores:  | Conductor |
 | Descripción: | El conductor podrá visualizar el tiempo que le tomará llegar a los parqueaderos. |
@@ -66,6 +67,8 @@ _Se detallan los requerimientos encontrados en el problema_
    2. El sistema calculará la distancia entre el conductor y el parqueadero.
    3. El sistema le mostrará al conductor en forma de mensaje el tiempo en minutos que tardará en llegar a ese parqueadero. |
 
+|CASO: | 2 |
+|-----------|-----------|
 | Nombre: | Información índice de disponibilidad del parqueadero |
 | Actores:  | Conductor |
 | Descripción: | El conductor podrá visualizar el índice de disponibilidad de los parqueaderos en horas. |
@@ -76,6 +79,8 @@ _Se detallan los requerimientos encontrados en el problema_
    2.El conductor selecciona el parqueadero que quiera.
    3.El sistema le mostrará el índice en el que el parqueadero por lo general tiene espacios disponibles.|
 
+|CASO: | 3 |
+|-----------|-----------|
 | Nombre: | Registrar parqueadero |
 | Actores:  | Administrador |
 | Descripción: | El administrador registra todos los datos necesarios para que el parqueadero pueda implementarse dentro del sistema. |
@@ -87,6 +92,8 @@ _Se detallan los requerimientos encontrados en el problema_
    3. El administrador presiona el botón de registrar y el sistema lo guarda en su base de datos.
    4. El sistema se actualiza automáticamente con el nuevo parqueadero ingresado. |
 
+|CASO: | 4 |
+|-----------|-----------|
 | Nombre: | Gestionar espacios |
 | Actores:  | Administrador |
 | Descripción: | El administrador podrá crear o eliminar los espacios de cada parqueadero así como ingresar información adicional. |
@@ -98,6 +105,8 @@ _Se detallan los requerimientos encontrados en el problema_
    3. El administrador elige la opción de crear un espacio o eliminarlo.
    4. El sistema guarda el cambio que ha hecho el administrador una vez que guardo los cambios. |
 
+|CASO: | 5 |
+|-----------|-----------|
 | Nombre: | Implementar precios de espacios |
 | Actores:  | Administrador |
 | Descripción: | El administrador ingresa los precios de los espacios de cada parqueadero. |
@@ -108,6 +117,8 @@ _Se detallan los requerimientos encontrados en el problema_
    2. El administrador selecciona el tipo de cobro que va a realizar(por horas o minutos), selecciona el valor que prefiera y le da a guardar.
    3. El sistema guarda el precio establecido. |
 
+|CASO: | 6 |
+|-----------|-----------|
 | Nombre: | Gestionar ofertas |
 | Actores:  | Administrador |
 | Descripción: | El administrador podrá ingresar promociones y descuentos al parqueadero. |
@@ -119,6 +130,8 @@ _Se detallan los requerimientos encontrados en el problema_
    3. El administrador establece las promociones o descuentos y guarda las ofertas.
    4. El sistema se actualiza automáticamente con las nuevas ofertas para ese parqueadero. |
 
+|CASO: | 7 |
+|-----------|-----------|
 | Nombre: | Gestionar servicios extras |
 | Actores:  | Administrador |
 | Descripción: | El administrador podrá ingresar servicios extras(copias, lavadero,etc) al parqueadero. |
@@ -129,6 +142,8 @@ _Se detallan los requerimientos encontrados en el problema_
    2. El administrador selecciona el parqueadero y el sistema le muestra un campo donde ingresa los datos de los servicios extras(nombre, descripción, costo)..
    3. El sistema se actualiza automáticamente con las nuevos servicios para ese parqueadero. |
 
+|CASO: | 8 |
+|-----------|-----------|
 | Nombre: | Visualizar disponibilidad de espacios |
 | Actores:  | Administrador, Conductor, Socio |
 | Descripción: | Todos los actores involucrados en el sistema pueden observar la disponibilidad de los espacios de los parqueaderos. |
@@ -140,6 +155,8 @@ _Se detallan los requerimientos encontrados en el problema_
    3. El socio selección un parqueadero.
    4. El sistema muestra la lista de los espacios del parqueadero. |
 
+|CASO: | 9 |
+|-----------|-----------|
 | Nombre: | Reservar espacio |
 | Actores:  | Socio |
 | Descripción: | Los socios pueden reservar un único espacio de todos los parqueadero registrados. |
@@ -152,6 +169,8 @@ _Se detallan los requerimientos encontrados en el problema_
    4. El socio elige un espacio e ingresa la clave o el código de la tarjeta.
    5. El sistema guarda el registro de la reserva en un historial. |
 
+|CASO: | 10 |
+|-----------|-----------|
 | Nombre: | Consultar saldo |
 | Actores:  | Socio |
 | Descripción: | Los socios pueden consultar el saldo que disponen en sus tarjetas. |
@@ -163,6 +182,8 @@ _Se detallan los requerimientos encontrados en el problema_
    3. El sistema recolecta los datos de la tarjeta.
    4. El sistema muestra los datos del saldo al socio. |
 
+|CASO: | 11 |
+|-----------|-----------|
 | Nombre: | Recargar tarjeta |
 | Actores:  | Administrador |
 | Descripción: | El administrador puede recargar el saldo de las tarjetas que disponen los socios. |
@@ -174,6 +195,8 @@ _Se detallan los requerimientos encontrados en el problema_
    3. El sistema realiza la recarga a la tarjeta.
    4. El sistema registra la recarga en un historial. |
 
+|CASO: | 12 |
+|-----------|-----------|
 | Nombre: | Cambiar estados |
 | Actores:  | Administrador |
 | Descripción: | El administrador puede cambiar el estado de la tarjeta para bloquear las actividades que puede realizar el socio y puede activarla para que el socio tenga nuevamente los permisos. |
@@ -187,6 +210,8 @@ _Se detallan los requerimientos encontrados en el problema_
    5. El administrador elige bloquear o activar el estado de la tarjeta.
    6. El sistema realiza el cambio y guarda la actividad en un historial. |
 
+|CASO: | 13 |
+|-----------|-----------|
 | Nombre: | Crear tarjetas |
 | Actores:  | Administrador |
 | Descripción: | El administrador puede crear las tarjetas de los socios para mantener un historial. |
@@ -197,6 +222,8 @@ _Se detallan los requerimientos encontrados en el problema_
    2. El sistema se crear las tarjetas con un identificador aleatorio.
    3. El sistema almacena la actividad en un historial. |
 
+|CASO: | 14 |
+|-----------|-----------|
 | Nombre: | Gestionar tipo de pago |
 | Actores:  | Administrador |
 | Descripción: | El administrador puede elegir el tipo de pago que se realizará para la cancelación del parqueo. |
