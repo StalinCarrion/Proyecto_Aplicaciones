@@ -48,8 +48,8 @@ _Se detallan los requerimientos encontrados en el problema_
 	* Tendrá un historial o registro del uso de las tarjetas (cambios de estados, recargas, etc).
 	* Crear tarjetas.
 	* Los servicios adicionales se pueden cancelar con la tarjeta.
-
-
+### Diagrama de casos de uso
+![tt](https://user-images.githubusercontent.com/14815092/70767510-9d6c2480-1d2f-11ea-8cc0-c54d22558660.png)
 
 
 
