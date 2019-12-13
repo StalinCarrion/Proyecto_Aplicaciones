@@ -63,7 +63,9 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | El conductor debe activar la ubicación en su celular. |
 | Poscondiciones: | El sistema muestra el tiempo calculado de la llegada al parqueadero. |
 | Flujo básico:  |
-| |	1. El sistema mostrará un mapa en donde se muestre la posición del conductor y el parqueadero al que desea ir. | 2. El sistema calculará la distancia entre el conductor y el parqueadero. | 3. El sistema le mostrará al conductor en forma de mensaje el tiempo en minutos que tardará en llegar a ese parqueadero. |
+| |	1. El sistema mostrará un mapa en donde se muestre la posición del conductor y el parqueadero al que desea ir. |
+| | 2. El sistema calculará la distancia entre el conductor y el parqueadero. | 
+| | 3. El sistema le mostrará al conductor en forma de mensaje el tiempo en minutos que tardará en llegar a ese parqueadero. |
 
 |CASO: | 2 |
 |-----------|-----------|
@@ -73,9 +75,9 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | El conductor debe haber activado la ubicación en su celular. |
 | Poscondiciones: | El sistema muestra el cálculo. |
 | Flujo básico:  |
-|  1. El sistema mostrará los parqueaderos que estén disponibles.
-   2.El conductor selecciona el parqueadero que quiera.
-   3.El sistema le mostrará el índice en el que el parqueadero por lo general tiene espacios disponibles.|
+| | 1. El sistema mostrará los parqueaderos que estén disponibles. |
+| | 2.El conductor selecciona el parqueadero que quiera. |
+| | 3.El sistema le mostrará el índice en el que el parqueadero por lo general tiene espacios disponibles. |
 
 |CASO: | 3 |
 |-----------|-----------|
@@ -85,10 +87,10 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: |  |
 | Poscondiciones: | El nuevo parqueadero se almacenará en la base de datos. |
 | Flujo básico:  |
-|  1. El administrador ingresa a la opción de registrar parqueaderos y el sistema le despliega el formulario de registro de parqueaderos.
-   2. El administrador ingresa todos los datos referentes al parqueadero(Nombre, latitud, longitud, dirección, descripción, teléfono, celular, número de espacios que tiene)
-   3. El administrador presiona el botón de registrar y el sistema lo guarda en su base de datos.
-   4. El sistema se actualiza automáticamente con el nuevo parqueadero ingresado. |
+| | 1. El administrador ingresa a la opción de registrar parqueaderos y el sistema le despliega el formulario de registro de parqueaderos. |
+| | 2. El administrador ingresa todos los datos referentes al parqueadero(Nombre, latitud, longitud, dirección, descripción, teléfono, celular, número de espacios que tiene) |
+| | 3. El administrador presiona el botón de registrar y el sistema lo guarda en su base de datos. |
+| | 4. El sistema se actualiza automáticamente con el nuevo parqueadero ingresado. |
 
 |CASO: | 4 |
 |-----------|-----------|
@@ -98,10 +100,10 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | Debe existir algún parqueadero donde se encuentren los espacios. |
 | Poscondiciones: | Todos los cambios referentes a los espacios se  almacenará en la base de datos. |
 | Flujo básico:  |
-|  1. El administrador ingresa a la opción de gestionar espacios y el sistema le despliega la lista de parqueaderos registrados.
-   2. El administrador selecciona el parqueadero que desee y el sistema le muestra los datos del parqueadero incluyendo el número de espacios.
-   3. El administrador elige la opción de crear un espacio o eliminarlo.
-   4. El sistema guarda el cambio que ha hecho el administrador una vez que guardo los cambios. |
+| | 1. El administrador ingresa a la opción de gestionar espacios y el sistema le despliega la lista de parqueaderos registrados. |
+| | 2. El administrador selecciona el parqueadero que desee y el sistema le muestra los datos del parqueadero incluyendo el número de espacios. |
+| | 3. El administrador elige la opción de crear un espacio o eliminarlo. |
+| | 4. El sistema guarda el cambio que ha hecho el administrador una vez que guardo los cambios. |
 
 |CASO: | 5 |
 |-----------|-----------|
@@ -111,9 +113,9 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | Debe estar registrador el parqueadero y al menos un espacio registrado. |
 | Poscondiciones: | El precio se podrá modificar por el administrador. |
 | Flujo básico:  |
-|  1. El administrador selecciona el parqueadero y el sistema le muestra toda la información del mismo.
-   2. El administrador selecciona el tipo de cobro que va a realizar(por horas o minutos), selecciona el valor que prefiera y le da a guardar.
-   3. El sistema guarda el precio establecido. |
+| | 1. El administrador selecciona el parqueadero y el sistema le muestra toda la información del mismo. |
+| | 2. El administrador selecciona el tipo de cobro que va a realizar(por horas o minutos), selecciona el valor que prefiera y le da a guardar. |
+| | 3. El sistema guarda el precio establecido. |
 
 |CASO: | 6 |
 |-----------|-----------|
@@ -123,10 +125,10 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | Tiene que el parqueadero estar registrado al sistema. |
 | Poscondiciones: | Todas las ofertas no serán estáticas, y el administrador podrá cambiar cuando lo desee. |
 | Flujo básico:  |
-|  1. El administrador ingresa a la opción de gestionar ofertas y el sistema le despliega la lista de los parqueaderos registrados.
-   2. El administrador selecciona el parqueadero y el sistema le muestra las opciones de ingresar promociones y/o descuentos.
-   3. El administrador establece las promociones o descuentos y guarda las ofertas.
-   4. El sistema se actualiza automáticamente con las nuevas ofertas para ese parqueadero. |
+| | 1. El administrador ingresa a la opción de gestionar ofertas y el sistema le despliega la lista de los parqueaderos registrados. |
+| | 2. El administrador selecciona el parqueadero y el sistema le muestra las opciones de ingresar promociones y/o descuentos. |
+| | 3. El administrador establece las promociones o descuentos y guarda las ofertas. |
+| | 4. El sistema se actualiza automáticamente con las nuevas ofertas para ese parqueadero. |
 
 |CASO: | 7 |
 |-----------|-----------|
@@ -136,9 +138,9 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | Todos los servicios extras tiene que estar asociados a un parqueadero. |
 | Poscondiciones: | Los servicios extras formarán parte de las ofertas que pueda añadir el administrador. |
 | Flujo básico:  |
-|  1. El administrador ingresa a la opción de gestionar servicios extras y el sistema le despliega la lista de los parqueaderos registrados.
-   2. El administrador selecciona el parqueadero y el sistema le muestra un campo donde ingresa los datos de los servicios extras(nombre, descripción, costo)..
-   3. El sistema se actualiza automáticamente con las nuevos servicios para ese parqueadero. |
+| | 1. El administrador ingresa a la opción de gestionar servicios extras y el sistema le despliega la lista de los parqueaderos registrados. |
+| | 2. El administrador selecciona el parqueadero y el sistema le muestra un campo donde ingresa los datos de los servicios extras(nombre, descripción, costo). |
+| | 3. El sistema se actualiza automáticamente con las nuevos servicios para ese parqueadero. |
 
 |CASO: | 8 |
 |-----------|-----------|
@@ -148,10 +150,10 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | En el sistema tiene que estar registrado por lo menos un parqueadero. |
 | Poscondiciones: | Los actores pueden visualizar los espacios y la disponibilidad del parqueadero que hayan elegido. |
 | Flujo básico:  |
-|  1. Los actores ingresan a la opción de visualizar los espacios.
-   2. El sistema muestra una lista de los parqueaderos registrados.
-   3. El socio selección un parqueadero.
-   4. El sistema muestra la lista de los espacios del parqueadero. |
+| | 1. Los actores ingresan a la opción de visualizar los espacios. |
+| | 2. El sistema muestra una lista de los parqueaderos registrados. |
+| | 3. El socio selección un parqueadero. |
+| | 4. El sistema muestra la lista de los espacios del parqueadero. |
 
 |CASO: | 9 |
 |-----------|-----------|
@@ -161,11 +163,11 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: |  |
 | Poscondiciones: | El socio tiene registrada una única reserva. |
 | Flujo básico:  |
-|  1. El sistema le muestra una lista de los parqueaderos.
-   2. El socio elige un parqueadero a su elección.
-   3. El sistema le muestra una lista de los espacios del parqueadero.
-   4. El socio elige un espacio e ingresa la clave o el código de la tarjeta.
-   5. El sistema guarda el registro de la reserva en un historial. |
+| | 1. El sistema le muestra una lista de los parqueaderos. |
+| | 2. El socio elige un parqueadero a su elección. |
+| | 3. El sistema le muestra una lista de los espacios del parqueadero. |
+| | 4. El socio elige un espacio e ingresa la clave o el código de la tarjeta. |
+| | 5. El sistema guarda el registro de la reserva en un historial. |
 
 |CASO: | 10 |
 |-----------|-----------|
@@ -175,10 +177,10 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: |  |
 | Poscondiciones: | El sistema muestra el saldo del socio. |
 | Flujo básico:  |
-|  1. El socio realiza selecciona la consulta de su saldo.
-   2. El socio ingresa la clave o identificador de su tarjeta y confirma la consulta.
-   3. El sistema recolecta los datos de la tarjeta.
-   4. El sistema muestra los datos del saldo al socio. |
+| | 1. El socio realiza selecciona la consulta de su saldo. |
+| | 2. El socio ingresa la clave o identificador de su tarjeta y confirma la consulta. |
+| | 3. El sistema recolecta los datos de la tarjeta. |
+| | 4. El sistema muestra los datos del saldo al socio. |
 
 |CASO: | 11 |
 |-----------|-----------|
@@ -188,10 +190,10 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: |  |
 | Poscondiciones: | El sistema recarga el saldo de la tarjeta. |
 | Flujo básico:  |
-|  1. El administrador ingresa la clave y el saldo a recargar a la tarjeta.
-   2. El administrador confirma la recarga.
-   3. El sistema realiza la recarga a la tarjeta.
-   4. El sistema registra la recarga en un historial. |
+| | 1. El administrador ingresa la clave y el saldo a recargar a la tarjeta. |
+| | 2. El administrador confirma la recarga. |
+| | 3. El sistema realiza la recarga a la tarjeta. |
+| | 4. El sistema registra la recarga en un historial. |
 
 |CASO: | 12 |
 |-----------|-----------|
@@ -201,12 +203,12 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: |  |
 | Poscondiciones: | El sistema cambia el saldo de la tarjeta. |
 | Flujo básico:  |
-|  1. El administrador ingresa los datos del socio.
-   2. El administrador realiza la consulta de la tarjeta.
-   3. El sistema retorna los datos de la tarjeta.
-   4. El sistema muestra los datos de la tarjeta incluido el estado.
-   5. El administrador elige bloquear o activar el estado de la tarjeta.
-   6. El sistema realiza el cambio y guarda la actividad en un historial. |
+| | 1. El administrador ingresa los datos del socio. |
+| | 2. El administrador realiza la consulta de la tarjeta. |
+| | 3. El sistema retorna los datos de la tarjeta. |
+| | 4. El sistema muestra los datos de la tarjeta incluido el estado. |
+| | 5. El administrador elige bloquear o activar el estado de la tarjeta. |
+| | 6. El sistema realiza el cambio y guarda la actividad en un historial. |
 
 |CASO: | 13 |
 |-----------|-----------|
@@ -216,9 +218,9 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: |  |
 | Poscondiciones: | El sistema tiene nuevas tarjetas registradas. |
 | Flujo básico:  |
-|  1. El administrador ingresa una cantidad de tarjeta.
-   2. El sistema se crear las tarjetas con un identificador aleatorio.
-   3. El sistema almacena la actividad en un historial. |
+| | 1. El administrador ingresa una cantidad de tarjeta. |
+| | 2. El sistema se crear las tarjetas con un identificador aleatorio. |
+| | 3. El sistema almacena la actividad en un historial. |
 
 |CASO: | 14 |
 |-----------|-----------|
@@ -228,12 +230,12 @@ _Se detallan los requerimientos encontrados en el problema_
 | Precondiciones: | El administrador debe estar en su interfaz correspondiente. |
 | Poscondiciones: | El sistema recarga el saldo de la tarjeta. |
 | Flujo básico:  |
-|  1. El sistema carga la lista de sus espacios.
-   2. El administrador selecciona el espacio.
-   3. El sistema carga los datos que corresponde al parqueo.
-   4. El administrador selecciona cancelar servicio .
-   5. El sistema en lista las opciones para cancelar.
-   6. El administrador elige la opción.
-   7. El sistema muestra un formulario con respecto a la opción elegida.
-   8. El administrador ingresa los datos y confirma el pago.
-   9. El sistema registra la actividad en un historial. |
+| | 1. El sistema carga la lista de sus espacios. |
+| | 2. El administrador selecciona el espacio. |
+| | 3. El sistema carga los datos que corresponde al parqueo. |
+| | 4. El administrador selecciona cancelar servicio. |
+| | 5. El sistema en lista las opciones para cancelar. |
+| | 6. El administrador elige la opción. |
+| | 7. El sistema muestra un formulario con respecto a la opción elegida. |
+| | 8. El administrador ingresa los datos y confirma el pago. |
+| | 9. El sistema registra la actividad en un historial. |
