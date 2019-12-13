@@ -62,7 +62,7 @@ _Se detallan los requerimientos encontrados en el problema_
 | Flujo básico:  |
 |  1. El sistema mostrará un mapa en donde se muestre la posición del conductor y el parqueadero al que desea ir.
    2. El sistema calculará la distancia entre el conductor y el parqueadero.
-   3. El sistema le mostrará al conductor en forma de mensaje el tiempo en minutos que tardará en llegar a ese parqueadero. |
+   3. El sistema le mostrará al conductor en forma de mensaje el tiempo en minutos que tardará en llegar a ese parqueadero.|
 
 
 | Nombre: | Información índice de disponibilidad del parqueadero |
