@@ -51,6 +51,8 @@ _Se detallan los requerimientos encontrados en el problema_
 ### Diagrama de casos de uso
 ![tt](https://user-images.githubusercontent.com/14815092/70767510-9d6c2480-1d2f-11ea-8cc0-c54d22558660.png)
 
+
+
 ### Especificacion de casos de uso
 | Nombre: | Notificar tiempo de llegada al parqueadero |
 | Actores:  | Conductor |
@@ -62,6 +64,7 @@ _Se detallan los requerimientos encontrados en el problema_
    2. El sistema calculará la distancia entre el conductor y el parqueadero.
    3. El sistema le mostrará al conductor en forma de mensaje el tiempo en minutos que tardará en llegar a ese parqueadero. |
 
+
 | Nombre: | Información índice de disponibilidad del parqueadero |
 | Actores:  | Conductor |
 | Descripción: | El conductor podrá visualizar el índice de disponibilidad de los parqueaderos en horas. |
@@ -71,6 +74,7 @@ _Se detallan los requerimientos encontrados en el problema_
 |  1. El sistema mostrará los parqueaderos que estén disponibles.
    2.El conductor selecciona el parqueadero que quiera.
    3.El sistema le mostrará el índice en el que el parqueadero por lo general tiene espacios disponibles.|
+
 
 | Nombre: | Registrar parqueadero |
 | Actores:  | Administrador |
