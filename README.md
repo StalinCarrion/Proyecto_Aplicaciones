@@ -42,6 +42,14 @@ _Se detallan los requerimientos encontrados en el problema_
 	* Si la tarjeta no tiene saldo. el vehículo no podrá abandonar el parqueo (el conductor debe recargar la tarjeta).
 	* El conductor puede consultar el saldo.
 	* Informar el tiempo de reserva según el saldo que tenga en la tarjeta. 
+* Otras Características
+	* No se mostrará información personal o del vehículo.
+	* No se mostrará información de la recarga de las tarjetas de crédito.
+	* Tendrá un historial o registro del uso de las tarjetas (cambios de estados, recargas, etc).
+	* Crear tarjetas.
+	* Los servicios adicionales se pueden cancelar con la tarjeta.
+
+
 
 
 
