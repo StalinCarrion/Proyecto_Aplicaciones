@@ -54,10 +54,10 @@ _Se detallan los requerimientos encontrados en el problema_
 
 
 ### Especificacion de casos de uso
-| Nombre: | Notificar tiempo de llegada al parqueadero |
 
 |CASO: | 1 |
 |-----------|-----------|
+| Nombre: | Notificar tiempo de llegada al parqueadero |
 | Actores:  | Conductor |
 | Descripción: | El conductor podrá visualizar el tiempo que le tomará llegar a los parqueaderos. |
 | Precondiciones: | El conductor debe activar la ubicación en su celular. |
