@@ -51,9 +51,6 @@ _Se detallan los requerimientos encontrados en el problema_
 ### Diagrama de casos de uso
 ![tt](https://user-images.githubusercontent.com/14815092/70767510-9d6c2480-1d2f-11ea-8cc0-c54d22558660.png)
 
-
-
-
 ### Especificacion de casos de uso
 | Nombre: | Notificar tiempo de llegada al parqueadero |
 | Actores:  | Conductor |
