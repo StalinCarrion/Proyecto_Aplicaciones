@@ -243,3 +243,14 @@ _Se detallan los requerimientos encontrados en el problema_
 ![DiagramaSistema](https://user-images.githubusercontent.com/14815092/71218690-6c8c7200-2290-11ea-8264-45ab79baff4e.png)
 ### Diagrama de Dominio
 ![DCU Aplicaciones-diagrama de domnio](https://user-images.githubusercontent.com/14815092/73471220-fe3ed300-4356-11ea-92d5-391e61a7f359.png)
+## Diagrama implementando Patrones
+### Patrones de creación
+* **Abstrac Factory** 
+* **Prototype** 
+### Patrones estructurales
+* **Adapter** 
+* **Facade** 
+### Patrones de comportamiento
+* **Strategy** 
+* **Observer**
+![DCU Aplicaciones-dominio con patrones](https://user-images.githubusercontent.com/14815092/73471457-668db480-4357-11ea-8148-33451b45d61d.png)
