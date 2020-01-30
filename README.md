@@ -239,5 +239,7 @@ _Se detallan los requerimientos encontrados en el problema_
 | | 7. El sistema muestra un formulario con respecto a la opción elegida. |
 | | 8. El administrador ingresa los datos y confirma el pago. |
 | | 9. El sistema registra la actividad en un historial. |
-### Diagrama de casos de uso
+### Diagrama 
 ![DiagramaSistema](https://user-images.githubusercontent.com/14815092/71218690-6c8c7200-2290-11ea-8264-45ab79baff4e.png)
+### Diagrama de Dominio
+![DCU Aplicaciones-diagrama de domnio](https://user-images.githubusercontent.com/14815092/73471220-fe3ed300-4356-11ea-92d5-391e61a7f359.png)
