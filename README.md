@@ -254,3 +254,5 @@ _Se detallan los requerimientos encontrados en el problema_
 * **Strategy** 
 * **Observer**
 ![DCU Aplicaciones-dominio con patrones](https://user-images.githubusercontent.com/14815092/73471457-668db480-4357-11ea-8148-33451b45d61d.png)
+## Diagrama de componentes
+![DCU Aplicaciones-diagrama de componentes](https://user-images.githubusercontent.com/14815092/73472194-a30de000-4358-11ea-88a5-bdadddcc266d.png)
